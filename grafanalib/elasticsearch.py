@@ -105,6 +105,7 @@ class AverageMetricAgg(object):
             "meta": {}
         }
 
+
 @attr.s
 class SumMetricAgg(object):
     """An aggregator that provides the sum of the values.
@@ -144,7 +145,6 @@ class DerivativeMetricAgg(object):
     id = attr.ib(default=0, validator=instance_of(int))
     pipelineAgg = attr.ib(default=1, validator=instance_of(int))
     unit = attr.ib(default="", validator=instance_of(str))
-
 
     def to_json_data(self):
         settings = {}

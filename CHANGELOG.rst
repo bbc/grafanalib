@@ -10,6 +10,7 @@ Changes
 -------
 
 * Add derivative metric aggregation for Elasticsearch
+* Add Elasticsearch bucket script pipeline aggregator
 * ...
 
 
